@@ -2,7 +2,7 @@
 
 *(this is not a shell! it just **acts** like one because it’s cool.)*
 
-**trust** is the Rust rewrite / spiritual successor to your C++ `tedit`: same vibe, same command-y workflow, but now with **native Rust + Cargo tools baked in**, theming, line history, tab completion, atomic saves, and multi-buffer editing — all in one fast binary.
+**trust** is the Rust rewrite / spiritual successor to my C++ `tedit`: same vibe, same command-y workflow, but now with **native Rust + Cargo tools baked in**, theming, line history, tab completion, atomic saves, and multi-buffer editing — all in one fast binary.
 
 It’s basically:
 
