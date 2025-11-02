@@ -8,7 +8,7 @@ It’s basically:
 
 > *“What if tedit, but Rust, and it knew Cargo, and the prompt was pretty?”* :D
 
-Inspired by the classics (*ed*, *ex*), influenced by your old `tedit`, and still shouting-out stuff like [Kokonico’s medit](https://github.com/Kokonico/medit) because that project is sick.
+Inspired by the classics (*ed*, *ex*), influenced by my old `tedit`, and still shouting-out stuff like [Kokonico’s medit](https://github.com/Kokonico/medit) because that project is sick.
 
 Also check out the original C++ editor project by me: **[tedit](https://github.com/RobertFlexx/tedit)**.
 
