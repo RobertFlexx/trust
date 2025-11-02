@@ -1,15 +1,3 @@
-// trust — Rusty clone of your C++ tedit
-// run:  cargo run --release
-// or:   ./trust
-//
-// this is your old "trust" but:
-// - prompt now says "trust>" (gradient)
-// - version says "trust v0.1.0 🦀"
-// - typed input color matches theme
-// - help uses the same gradient
-//
-// — Robert edition 😎
-
 use std::collections::HashMap;
 use std::fs::{self, File, OpenOptions, Metadata};
 use std::io::{self, BufRead, Read, Write};
@@ -483,7 +471,7 @@ fn palette_for(t: Theme) -> Palette {
             err: RED,
             dim: BBLACK,
             prompt: BCYAN,
-            input: BBLACK, // you wanted dark to be gray
+            input: BBLACK,  // dark theme! (sigma)
             gutter: BBLACK,
             title: BOLD_CYAN,
             help_cmd: BCYAN,
@@ -705,7 +693,7 @@ fn perm_string(meta: &Metadata) -> String {
 
 #[cfg(not(unix))]
 fn perm_string(_meta: &Metadata) -> String {
-    // boring on non-unix
+    // boring on non unix
     "----------".to_string()
 }
 
@@ -735,7 +723,7 @@ fn gradient_prompt_text(dirty: bool, pal: &Palette) -> String {
         out.push(ch);
     }
     out.push(' ');
-    // don't reset here; LineReader will reset after printing input
+    // don't reset here; linereader will reset after printing input
     out
 }
 
@@ -1123,7 +1111,7 @@ impl Editor {
             }
         }
 
-        // tiny safeguard like C++: don't ls /etc/shadow if non-root
+        // tiny safeguard like C++: don't ls /etc/shadow if non-root, huihfguwioeghew lol
         if target == "/etc/shadow" && unsafe { libc::geteuid() } != 0 {
             println!("ls: permission denied");
             return;
@@ -1190,7 +1178,7 @@ impl Editor {
     }
 
     fn rs_run(&self) {
-        // write current buffer to /tmp and run with `rustc /tmp/tmp.rs && /tmp/tmp-bin`
+        // write current buffer to /tmp and run with `rustc /tmp/tmp.rs && /tmp/tmp-bin`(if u read this u kewl)
         let tmpdir = std::env::temp_dir();
         let src = tmpdir.join("trust-run.rs");
         let bin = tmpdir.join("trust-run-bin");
@@ -1725,3 +1713,4 @@ mod fxhash {
         hash
     }
 }
+// uh.. hi
