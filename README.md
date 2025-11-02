@@ -229,18 +229,18 @@ so if your WM dies, you don’t lose everything. Mirrors the old C++ behavior, j
 
 ## Philosophy
 
-**trust** follows the same idea as your C++ editor: do text editing with a command-led workflow, stay scriptable, stay portable, but because it’s Rust, it can also become your mini Rust lab. Add syntax highlighting later when you’re happy with the command core.
+**trust** follows the same idea as my C++ editor: do text editing with a command-led workflow, stay scriptable, stay portable, but because it’s Rust, it can also become your mini Rust lab. Add syntax highlighting later when you’re happy with the command core.
 
 ---
 
 ## License
 
-MIT / BSD-style, keep the credit, ship cool stuff. :P
+MIT keep the credit, ship cool stuff. :P
 
 ---
 
 ## Related Projects
 
 * **trust** (this repo) — Rust CLI editor with Cargo baked in
-* **[tedit](https://github.com/RobertFlexx/tedit)** — original C++ editor that inspired this
-* **[medit](https://github.com/Kokonico/medit)** — inspiration for command-style editors
+* **[tedit](https://github.com/RobertFlexx/tedit)** — original C++ editor that inspired this (mine :P)
+* **[medit](https://github.com/Kokonico/medit)** — because its goated
