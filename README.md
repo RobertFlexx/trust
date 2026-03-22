@@ -2,6 +2,8 @@
 
 *(this is not a shell! it just **acts** like one because it’s cool.)*
 
+***not actively maintained as of 2026, but updates will come soon! (pls make issues)***
+
 **trust** is the Rust rewrite / spiritual successor to my C++ `tedit`: same vibe, same command-y workflow, but now with **native Rust + Cargo tools baked in**, theming, line history, tab completion, atomic saves, and multi-buffer editing — all in one fast binary.
 
 It’s basically:
